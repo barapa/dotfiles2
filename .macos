@@ -785,7 +785,7 @@ defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault
 defaults write com.operasoftware.Opera PMPrintingExpandedStateForPrint2 -boolean true
 defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2 -boolean true
 
-// TODO(barapa): replace with spectacle app if you can find the app ID
+#TODO(barapa): replace with spectacle app if you can find the app ID
 ###############################################################################
 # SizeUp.app                                                                  #
 ###############################################################################

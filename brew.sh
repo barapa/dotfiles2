@@ -101,5 +101,8 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+
+# Personall
+brew install ripgrep
 # Remove outdated versions from the cellar.
 brew cleanup

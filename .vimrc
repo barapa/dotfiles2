@@ -31,6 +31,9 @@ if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
 
+" map esc to jj
+:imap jj <Esc>
+
 " Don’t create backups when editing files in certain directories
 set backupskip=/tmp/*,/private/tmp/*
 
