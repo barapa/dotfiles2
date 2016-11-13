@@ -1,3 +1,14 @@
+" setup vim-plug package manager
+" https://github.com/junegunn/vim-plu://github.com/junegunn/vim-plug
+call plug#begin('~/.vim/plugged')
+
+" Add hook for extra step after intallation
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+
+" Add plugins to &runtimepath
+call plug#end()
+
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
